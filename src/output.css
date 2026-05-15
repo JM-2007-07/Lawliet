@@ -15,6 +15,7 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-normal: 400;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -256,6 +257,12 @@
   .h-\[24px\] {
     height: 24px;
   }
+  .h-\[32\] {
+    height: 32;
+  }
+  .h-\[32px\] {
+    height: 32px;
+  }
   .h-\[36\] {
     height: 36;
   }
@@ -270,6 +277,9 @@
   }
   .h-\[56px\] {
     height: 56px;
+  }
+  .h-\[64px\] {
+    height: 64px;
   }
   .h-\[80px\] {
     height: 80px;
@@ -301,14 +311,29 @@
   .h-\[253px\] {
     height: 253px;
   }
+  .h-\[295px\] {
+    height: 295px;
+  }
   .h-\[300px\] {
     height: 300px;
+  }
+  .h-\[314px\] {
+    height: 314px;
+  }
+  .h-\[324px\] {
+    height: 324px;
+  }
+  .h-\[334px\] {
+    height: 334px;
   }
   .h-\[340px\] {
     height: 340px;
   }
   .h-\[356px\] {
     height: 356px;
+  }
+  .h-\[374px\] {
+    height: 374px;
   }
   .h-\[540px\] {
     height: 540px;
@@ -352,6 +377,12 @@
   .w-\[24px\] {
     width: 24px;
   }
+  .w-\[29\] {
+    width: 29;
+  }
+  .w-\[29px\] {
+    width: 29px;
+  }
   .w-\[34\] {
     width: 34;
   }
@@ -385,6 +416,9 @@
   .w-\[210px\] {
     width: 210px;
   }
+  .w-\[219px\] {
+    width: 219px;
+  }
   .w-\[238px\] {
     width: 238px;
   }
@@ -393,6 +427,12 @@
   }
   .w-\[256px\] {
     width: 256px;
+  }
+  .w-\[330\.4p\] {
+    width: 330.4p;
+  }
+  .w-\[330\.4px\] {
+    width: 330.4px;
   }
   .w-\[382px\] {
     width: 382px;
@@ -718,6 +758,10 @@
     --tw-font-weight: 500;
     font-weight: 500;
   }
+  .font-\[600\] {
+    --tw-font-weight: 600;
+    font-weight: 600;
+  }
   .font-\[800\] {
     --tw-font-weight: 800;
     font-weight: 800;
@@ -733,6 +777,10 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
   }
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
